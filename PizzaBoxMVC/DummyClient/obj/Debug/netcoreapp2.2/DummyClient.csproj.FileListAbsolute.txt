@@ -1,0 +1,16 @@
+C:\Revature\Projects\Project_01\PizzaBoxMVC\DummyClient\bin\Debug\netcoreapp2.2\DummyClient.deps.json
+C:\Revature\Projects\Project_01\PizzaBoxMVC\DummyClient\bin\Debug\netcoreapp2.2\DummyClient.runtimeconfig.json
+C:\Revature\Projects\Project_01\PizzaBoxMVC\DummyClient\bin\Debug\netcoreapp2.2\DummyClient.runtimeconfig.dev.json
+C:\Revature\Projects\Project_01\PizzaBoxMVC\DummyClient\bin\Debug\netcoreapp2.2\DummyClient.dll
+C:\Revature\Projects\Project_01\PizzaBoxMVC\DummyClient\bin\Debug\netcoreapp2.2\DummyClient.pdb
+C:\Revature\Projects\Project_01\PizzaBoxMVC\DummyClient\obj\Debug\netcoreapp2.2\DummyClient.csproj.CoreCompileInputs.cache
+C:\Revature\Projects\Project_01\PizzaBoxMVC\DummyClient\obj\Debug\netcoreapp2.2\DummyClient.AssemblyInfoInputs.cache
+C:\Revature\Projects\Project_01\PizzaBoxMVC\DummyClient\obj\Debug\netcoreapp2.2\DummyClient.AssemblyInfo.cs
+C:\Revature\Projects\Project_01\PizzaBoxMVC\DummyClient\obj\Debug\netcoreapp2.2\DummyClient.dll
+C:\Revature\Projects\Project_01\PizzaBoxMVC\DummyClient\obj\Debug\netcoreapp2.2\DummyClient.pdb
+C:\Revature\Projects\Project_01\PizzaBoxMVC\DummyClient\bin\Debug\netcoreapp2.2\Data.dll
+C:\Revature\Projects\Project_01\PizzaBoxMVC\DummyClient\bin\Debug\netcoreapp2.2\Domain.dll
+C:\Revature\Projects\Project_01\PizzaBoxMVC\DummyClient\bin\Debug\netcoreapp2.2\Data.pdb
+C:\Revature\Projects\Project_01\PizzaBoxMVC\DummyClient\bin\Debug\netcoreapp2.2\Domain.pdb
+C:\Revature\Projects\Project_01\PizzaBoxMVC\DummyClient\obj\Debug\netcoreapp2.2\DummyClient.csprojAssemblyReference.cache
+C:\Revature\Projects\Project_01\PizzaBoxMVC\DummyClient\obj\Debug\netcoreapp2.2\DummyClient.csproj.CopyComplete

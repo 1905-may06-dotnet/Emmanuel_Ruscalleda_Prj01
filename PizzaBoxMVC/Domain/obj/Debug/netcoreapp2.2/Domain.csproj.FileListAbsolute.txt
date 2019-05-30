@@ -1,0 +1,12 @@
+C:\Revature\Projects\Project_01\PizzaBoxMVC\Domain\bin\Debug\netcoreapp2.2\Domain.deps.json
+C:\Revature\Projects\Project_01\PizzaBoxMVC\Domain\bin\Debug\netcoreapp2.2\Domain.dll
+C:\Revature\Projects\Project_01\PizzaBoxMVC\Domain\bin\Debug\netcoreapp2.2\Domain.pdb
+C:\Revature\Projects\Project_01\PizzaBoxMVC\Domain\obj\Debug\netcoreapp2.2\Domain.csprojAssemblyReference.cache
+C:\Revature\Projects\Project_01\PizzaBoxMVC\Domain\obj\Debug\netcoreapp2.2\Domain.csproj.CoreCompileInputs.cache
+C:\Revature\Projects\Project_01\PizzaBoxMVC\Domain\obj\Debug\netcoreapp2.2\Domain.AssemblyInfoInputs.cache
+C:\Revature\Projects\Project_01\PizzaBoxMVC\Domain\obj\Debug\netcoreapp2.2\Domain.AssemblyInfo.cs
+C:\Revature\Projects\Project_01\PizzaBoxMVC\Domain\obj\Debug\netcoreapp2.2\Domain.dll
+C:\Revature\Projects\Project_01\PizzaBoxMVC\Domain\obj\Debug\netcoreapp2.2\Domain.pdb
+C:\Revature\Projects\Project_01\PizzaBoxMVC\Domain\bin\Debug\netcoreapp2.2\Data.dll
+C:\Revature\Projects\Project_01\PizzaBoxMVC\Domain\bin\Debug\netcoreapp2.2\Data.pdb
+C:\Revature\Projects\Project_01\PizzaBoxMVC\Domain\obj\Debug\netcoreapp2.2\Domain.csproj.CopyComplete
