@@ -1,0 +1,61 @@
+﻿
+@{
+    ViewData["Title"] = "Main Menu";
+}
+
+
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <div class="text-center">
+        <h1 class="display-4">Welcome</h1>
+        <h1>PizzaBox</h1>
+        <br>
+        <br>
+    </div>
+
+
+
+    <div class="text-center">
+
+        <form action="/Home/Menu">
+            <input type="submit" value="Regular Menu" />
+        </form>
+
+        <form action="/Home/SelectLocation">
+            <input type="submit" value="Make Custome Pizza" />
+        </form>
+
+        <form action="/Home/Offers">
+            <input type="submit" value="Special Offers" />
+        </form>
+
+        <form action="/LocationInfo">
+            <input type="submit" value="Locations" />
+        </form>
+
+        <form action="/Home/Cart">
+            <input type="submit" value="Cart" />
+        </form>
+
+        <form action="/Home/History">
+            <input type="submit" value="Orders History" />
+        </form>
+
+        <form action="/Home/Settings">
+            <input type="submit" value="Settings" />
+        </form>
+
+        <form action="/Home">
+            <input type="submit" value="Sing-Out" />
+        </form>
+
+    </div>
+
+
+
+</body>
+
+</html>

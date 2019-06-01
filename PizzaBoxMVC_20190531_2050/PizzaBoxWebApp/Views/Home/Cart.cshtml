@@ -1,0 +1,60 @@
+﻿
+@{
+    ViewData["Title"] = "Cart";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Cart</h1>
+    <h1>PizzaBox</h1>
+    <br>
+    <br>
+</div>
+
+<div class="text-center">
+    <h5> order summary, delete options, and total here </h5>
+    <br>
+    <br>
+</div>
+
+
+<h2 class="display-4">Payment Method</h2>
+<select>
+    <option value="none">---</option>
+    <option value="card01">4568-1949-4981-3198</option>
+    <option value="card02">4568-1949-1569-7489</option>
+</select>
+<br>
+<br>
+<br>
+
+<h2 class="display-4">Delivery to</h2>
+<select>
+    <option value="none">---</option>
+    <option value="pickup">pickup in restaurant</option>
+    <option value="delAdd1">123 A St | Arlington, TX 70006</option>
+    <option value="delAdd2">456 B St | Arlington, TX 70007</option>
+
+</select>
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+
+<div class="text-center">
+
+    <form action="/Home/Confirmation">
+        <input type="submit" value="Submit Order" />
+    </form>
+</div>
+<br>
+<br>
+
+<div class="text-center">
+
+    <form action="/Home/MainMenu">
+        <input type="submit" value="Main Menu" />
+    </form>
+</div>

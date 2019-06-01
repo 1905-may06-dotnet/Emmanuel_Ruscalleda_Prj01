@@ -1,0 +1,50 @@
+﻿
+@{
+    ViewData["Title"] = "User Info";
+}
+
+
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <div class="text-center">
+        <h1 class="display-4">Create account</h1>
+        <h1>PizzaBox</h1>
+    </div>
+
+    <form action="/Home/ComingSoon" method="post">
+        <h2>Personal Information</h2>
+        Password:<br> <input type="password" name="password1" maxlength="50" minlength="8" required><br>
+        Re-enter Password:<br> <input type="password" name="password2" maxlength="50" minlength="8" required><br>
+        <br>
+        <br>
+        First Name:<br> <input type="text" name="fname" ><br>
+        Last Name:<br> <input type="text" name="lname"><br>
+        Address 1:<br> <input type="text" name="address1"><br>
+        Address 2:<br> <input type="text" name="address2" placeholder="optional"><br>
+        City:<br> <input type="text" name="city"><br>
+        State:<br> <input type="text" name="state"><br>
+        Zip-code:<br> <input type="text" name="zipcode" pattern="[0-9]{5}" placeholder="#####"><br>
+        Phone:<br> <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="###-###-####"><br>
+        <br>
+        <br>
+        <h2>Billing Information</h2>
+        Card Number:<br> <input type="text" name="cardnumber" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}" placeholder="####-####-####-####"><br>
+        CVV:<br> <input type="text" name="cvv" pattern="[0-9]{3}" placeholder="###"><br>
+        Valid Thru:<br> <input type="date" name="validthru"><br>
+        <br>
+        <h6>Name as show in card:</h6>
+        First Name:<br> <input type="text" name="cardfname"><br>
+        Last Name:<br> <input type="text" name="cardlname"><br>
+        <br>
+        <br>
+        <br>
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+
+</html>
