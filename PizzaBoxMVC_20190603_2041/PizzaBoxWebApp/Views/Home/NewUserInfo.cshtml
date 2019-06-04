@@ -1,0 +1,188 @@
+﻿@model PizzaBoxWebApp.Models.NewUserInfoModel
+
+@{
+    ViewData["Title"] = "New User Info";
+}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+   
+
+</head>
+
+
+<body>
+
+
+
+
+        <div class="text-center">
+            <h1 class="display-4">Create account</h1>
+            <h1>PizzaBox</h1>
+        </div>
+        <hr />
+        <br>
+        <br>
+
+        <form asp-action="Create">
+
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="Password1" class="control-label"></label>
+                <input asp-for="Password1" class="form-control" style="max-width:400px" />
+                <span asp-validation-for="Password1" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Password2" class="control-label"></label>
+                <input asp-for="Password2" class="form-control" style="max-width:400px" />
+                <span asp-validation-for="Password2" class="text-danger"></span>
+            </div>
+
+            <br>
+            <br>
+
+            <div class="form-group">
+                <label asp-for="FirstName" class="control-label"></label>
+                <input asp-for="FirstName" class="form-control" style="max-width:400px" />
+                <span asp-validation-for="FirstName" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="LastName" class="control-label"></label>
+                <input asp-for="LastName" class="form-control" style="max-width:400px" />
+                <span asp-validation-for="LastName" class="text-danger"></span>
+            </div>
+
+            @*<br>
+            <br>
+
+            <h2>Delivery Address</h2>
+            <p> At least one delivery address is required. Pickup options are available.</p>
+            <div class="form-group">
+                <label asp-for="Address1" class="control-label"></label>
+                <input asp-for="Address1" class="form-control" style="max-width:400px" />
+                <span asp-validation-for="Address1" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Address2" class="control-label"></label>
+                <input asp-for="Address2" class="form-control" style="max-width:400px" />
+                <span asp-validation-for="Address2" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="City" class="control-label"></label>
+                <input asp-for="City" class="form-control" style="max-width:400px" />
+                <span asp-validation-for="City" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="State" class="control-label"></label>
+                <input asp-for="State" class="form-control" style="max-width:400px" />
+                <span asp-validation-for="State" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Zipcode" class="control-label"></label>
+                <input asp-for="Zipcode" class="form-control" style="max-width:400px" />
+                <span asp-validation-for="Zipcode" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="AddressDetails" class="control-label"></label>
+                <input asp-for="AddressDetails" class="form-control" style="max-width:400px" />
+                <span asp-validation-for="AddressDetails" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Phone" class="control-label"></label>
+                <input asp-for="Phone" class="form-control" style="max-width:400px" />
+                <span asp-validation-for="Phone" class="text-danger"></span>
+            </div>
+
+            <br>
+            <br>
+
+            <h2>Billing Information</h2>
+            <p> At least one credit card is required.</p>
+
+            <div class="form-group">
+                <label asp-for="CreidtCardNumber" class="control-label"></label>
+                <input asp-for="CreidtCardNumber" class="form-control" style="max-width:400px" />
+                <span asp-validation-for="CreidtCardNumber" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="CVV" class="control-label"></label>
+                <input asp-for="CVV" class="form-control" style="max-width:400px" />
+                <span asp-validation-for="CVV" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="ValidThru" class="control-label"></label>
+                <input asp-for="ValidThru" class="form-control" style="max-width:400px" />
+                <span asp-validation-for="ValidThru" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="CardFirstName" class="control-label"></label>
+                <input asp-for="CardFirstName" class="form-control" style="max-width:400px" />
+                <span asp-validation-for="CardFirstName" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="CardLastName" class="control-label"></label>
+                <input asp-for="CardLastName" class="form-control" style="max-width:400px" />
+                <span asp-validation-for="CardLastName" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="CardAddress1" class="control-label"></label>
+                <input asp-for="CardAddress1" class="form-control" style="max-width:400px" />
+                <span asp-validation-for="CardAddress1" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="CardAddress2" class="control-label"></label>
+                <input asp-for="CardAddress2" class="form-control" style="max-width:400px" />
+                <span asp-validation-for="CardAddress2" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="CardCity" class="control-label"></label>
+                <input asp-for="CardCity" class="form-control" style="max-width:400px" />
+                <span asp-validation-for="CardCity" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="CardState" class="control-label"></label>
+                <input asp-for="CardState" class="form-control" style="max-width:400px" />
+                <span asp-validation-for="CardState" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="CardZipcode" class="control-label"></label>
+                <input asp-for="CardZipcode" class="form-control" style="max-width:400px" />
+                <span asp-validation-for="CardZipcode" class="text-danger"></span>
+            </div>*@
+
+            <br>
+
+            @* Submit Button*@
+            <div class="form-group">
+                <input type="submit" value="Submit" class="btn btn-primary" />
+            </div>
+
+        </form>
+
+    <a asp-action="Index">Drop</a>
+
+
+
+</body>
+
+</html>

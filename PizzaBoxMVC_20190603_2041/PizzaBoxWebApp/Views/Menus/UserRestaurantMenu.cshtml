@@ -1,0 +1,107 @@
+﻿
+@{
+    ViewData["Title"] = "Restaurant Menu";
+}
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+
+    <style>
+        .center {
+            margin: auto;
+            width: 25%;
+            border: none
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+
+    <div class="text-center">
+        <h1 class="display-4">Menu</h1>
+        <h1>PizzaBox</h1>
+        <br>
+        <br>
+
+    </div>
+
+    <table class="center" border="0">
+        <col width="100">
+        <col width="50">
+        <tr>
+            <th>Size</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>small</td>
+            <td>$8.99</td>
+        </tr>
+        <tr>
+            <td>medium</td>
+            <td>$10.99</td>
+        <tr>
+            <td>large</td>
+            <td>$12.99</td>
+        </tr>
+    </table>
+    <br>
+    <table class="center" border="0">
+        <col width="100">
+        <col width="50">
+        <tr>
+            <th>Crust</th>
+            <th></th>
+        </tr>
+        <tr>
+            <td>regular</td>
+            <td>$0.00</td>
+        </tr>
+        <tr>
+            <td>thin</td>
+            <td>$0.00</td>
+        <tr>
+            <td>garlic</td>
+            <td>$1.00</td>
+        </tr>
+    </table>
+    <br>
+    <table class="center" border="0">
+        <col width="100">
+        <col width="50">
+        <tr>
+            <th>Topping</th>
+            <th></th>
+        </tr>
+        <tr>
+            <td>extra cheese</td>
+            <td>$1.00</td>
+        </tr>
+        <tr>
+            <td>pepperoni</td>
+            <td>$1.00</td>
+        <tr>
+            <td>bacon</td>
+            <td>$1.00</td>
+        </tr>
+    </table>
+
+
+    <br>
+    <br>
+    <br>
+
+    <div class="text-center">
+
+        <form action="/Menus/UserMainMenu">
+            <input type="submit" value="Main Menu" />
+        </form>
+    </div>
+</body>
+
+</html>

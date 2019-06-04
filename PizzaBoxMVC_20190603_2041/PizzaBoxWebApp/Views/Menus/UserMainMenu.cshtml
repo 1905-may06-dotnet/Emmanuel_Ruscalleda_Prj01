@@ -1,0 +1,57 @@
+﻿
+@{
+    ViewData["Title"] = "Main Menu";
+}
+
+
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <div class="text-center">
+        <h1 class="display-4">Welcome  @ViewBag.Email</h1>
+        <h1>PizzaBox</h1>
+        <br>
+        <br>
+    </div>
+
+
+
+    <div class="text-center">
+
+        <form action="/Menus/UserRestaurantMenu">
+            <input type="submit" value="Restaurant Menu" />
+        </form>
+
+        <form action="/Orders/SelectLocation">
+            <input type="submit" value="Order" />
+        </form>
+
+        <form action="/Menus/UserLocationsList">
+            <input type="submit" value="Locations" />
+        </form>
+
+        <form action="/Orders/Cart">
+            <input type="submit" value="Cart" />
+        </form>
+
+        <form action="/Orders/History">
+            <input type="submit" value="Orders History" />
+        </form>
+
+        <form action="/Settings/MainSettings">
+            <input type="submit" value="Settings" />
+        </form>
+
+        <form action="/Home">
+            <input type="submit" value="Sing-Out" />
+        </form>
+
+    </div>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+﻿@model PizzaBoxWebApp.Models.UserAccessModel
+
+
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <div class="text-center">
+        <h1 class="display-4">Welcome</h1>
+        <h1>PizzaBox</h1>
+    </div>
+
+    <hr />
+
+
+    <form asp-action="Create">
+
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+        @* Email Section*@
+        <div class="form-group">
+            <label asp-for="Email" class="control-label"></label>
+            <input asp-for="Email" class="form-control" style="max-width:400px" />
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+
+
+        @* Password Section*@
+        <div class="form-group">
+            <label asp-for="Password" class="control-label"></label>
+            <input asp-for="Password" class="form-control" style="max-width:400px" />
+            <span asp-validation-for="Password" class="text-danger"></span>
+        </div>
+
+
+
+        @* Submit Button*@
+        <div class="form-group">
+            <input type="submit" value="Submit" class="btn btn-primary" />
+        </div>
+
+    </form>
+
+
+
+
+
+    <br>
+    <a asp-action="NewUserCheck">New user</a>
+    <br>
+    <a asp-action="GuestMainMenu">LogIn as Guest</a>
+
+
+
+    <div class="text-center">
+        <form action="/Menus/UserMainMenu">
+            <input type="submit" value="Main Menu" style="background-color: aqua" />
+        </form>
+    </div>
+
+
+
+
+</body>
+
+</html>
