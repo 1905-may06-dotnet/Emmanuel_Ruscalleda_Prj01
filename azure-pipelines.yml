@@ -24,10 +24,3 @@ steps:
     command: 'publish'
     projects: '$(pathtoproject)/*.csproj'
 
-- task: AzureWebApp@1
-  inputs:
-    azureSubscription: 'Free Trial(97d19032-7efb-4f95-b493-6e2c8f0a5ef7)'
-    appType: 'webApp'
-    appName: 'PizzaBoxWebAppER'
-    package: '$(System.DefaultWorkingDirectory)/**/*.zip'
-    deploymentMethod: 'auto'
