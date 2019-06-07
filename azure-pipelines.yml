@@ -10,8 +10,8 @@ pool:
   vmImage: 'ubuntu-latest'
 
 variables:
-  pathtosolution: 'PizzaBoxWebApp'
-  pathtoproject: 'PizzaBoxWebApp/PizzaBoxWebApp'
+  pathtosolution: 'PizzaBoxMVC_20190603_2041'
+  pathtoproject: 'PizzaBoxMVC_20190603_2041/PizzaBoxWebApp'
   buildConfiguration: 'Release'
 
 steps:
